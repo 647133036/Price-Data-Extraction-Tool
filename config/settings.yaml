@@ -1,0 +1,46 @@
+app:
+  name: Coles & Woolworths Price Data Extraction Tool
+  timezone: Australia/Sydney
+  dry_run: false
+  max_products_per_store: 0
+  request_delay_seconds: 0.4
+  max_retries: 3
+  retry_backoff_seconds: 1.5
+  timeout_seconds: 30
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+schedule:
+  enabled: false
+  weekday: wed
+  hour: 6
+  minute: 0
+
+output:
+  directory: data/output
+  formats:
+    - csv
+    - json
+  pretty_json: true
+
+logging:
+  level: INFO
+  directory: logs
+  filename: extractor.log
+
+aws:
+  enabled: false
+  region: ap-southeast-2
+  s3_bucket: ""
+  s3_prefix: grocery-prices
+  profile_name: ""
+
+retailers:
+  coles:
+    enabled: true
+    base_url: https://www.coles.com.au
+    page_size: 48
+  woolworths:
+    enabled: true
+    base_url: https://www.woolworths.com.au
+    page_size: 36
+    exclude_marketplace: true

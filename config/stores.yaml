@@ -1,0 +1,99 @@
+# Representative stores covering each Australian state and territory.
+# IDs can be updated without changing application code.
+stores:
+  - retailer: coles
+    store_id: "0584"
+    name: Coles Melbourne CBD
+    location: Melbourne VIC
+    state: VIC
+    postcode: "3000"
+  - retailer: coles
+    store_id: "0474"
+    name: Coles Sydney CBD
+    location: Sydney NSW
+    state: NSW
+    postcode: "2000"
+  - retailer: coles
+    store_id: "0393"
+    name: Coles Brisbane City
+    location: Brisbane QLD
+    state: QLD
+    postcode: "4000"
+  - retailer: coles
+    store_id: "0336"
+    name: Coles Adelaide City
+    location: Adelaide SA
+    state: SA
+    postcode: "5000"
+  - retailer: coles
+    store_id: "0440"
+    name: Coles Perth City
+    location: Perth WA
+    state: WA
+    postcode: "6000"
+  - retailer: coles
+    store_id: "0783"
+    name: Coles Hobart City
+    location: Hobart TAS
+    state: TAS
+    postcode: "7000"
+  - retailer: coles
+    store_id: "0824"
+    name: Coles Canberra Civic
+    location: Canberra ACT
+    state: ACT
+    postcode: "2601"
+  - retailer: coles
+    store_id: "0855"
+    name: Coles Darwin City
+    location: Darwin NT
+    state: NT
+    postcode: "0800"
+  - retailer: woolworths
+    store_id: "1255"
+    name: Woolworths Melbourne Metro
+    location: Melbourne VIC
+    state: VIC
+    postcode: "3000"
+  - retailer: woolworths
+    store_id: "1096"
+    name: Woolworths Sydney Town Hall
+    location: Sydney NSW
+    state: NSW
+    postcode: "2000"
+  - retailer: woolworths
+    store_id: "1087"
+    name: Woolworths Brisbane City
+    location: Brisbane QLD
+    state: QLD
+    postcode: "4000"
+  - retailer: woolworths
+    store_id: "1335"
+    name: Woolworths Adelaide Rundle Mall
+    location: Adelaide SA
+    state: SA
+    postcode: "5000"
+  - retailer: woolworths
+    store_id: "1554"
+    name: Woolworths Perth City
+    location: Perth WA
+    state: WA
+    postcode: "6000"
+  - retailer: woolworths
+    store_id: "1704"
+    name: Woolworths Hobart
+    location: Hobart TAS
+    state: TAS
+    postcode: "7000"
+  - retailer: woolworths
+    store_id: "1332"
+    name: Woolworths Canberra City
+    location: Canberra ACT
+    state: ACT
+    postcode: "2601"
+  - retailer: woolworths
+    store_id: "2726"
+    name: Woolworths Darwin
+    location: Darwin NT
+    state: NT
+    postcode: "0800"

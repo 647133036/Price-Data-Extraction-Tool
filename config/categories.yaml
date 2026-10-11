@@ -1,0 +1,29 @@
+# Browse categories used when collecting the full grocery catalogues.
+# Paths follow each retailer's public browse taxonomy.
+coles:
+  - dairy-eggs-fridge
+  - bakery
+  - fruit-vegetables
+  - pantry
+  - meat-seafood
+  - frozen
+  - drinks
+  - household
+  - health-beauty
+  - baby
+  - pet
+  - liquor
+
+woolworths:
+  - dairy-eggs-fridge
+  - bakery
+  - fruit-veg
+  - pantry
+  - meat-seafood-deli
+  - freezer
+  - drinks
+  - household
+  - health-wellness
+  - baby
+  - pet
+  - lunch-box
